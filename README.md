@@ -5,3 +5,5 @@ Current GitHub repository contains the following files:
 * predictions_api.py - Script for the API tun on EC2 that makes predictions with the model and uploads new data for analysis to S3
 * request_to_api.py - Script execured locally to access the API and obtain predictions for test data, and then analyze the performance of the model
 * quickstart-manifest-analysis.json - JSON file that is needed to point AWS QuickStart Dashboard to the analysis file in S3 bucket
+* training_data.csv - training data
+* test_data.csv - test data
