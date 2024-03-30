@@ -88,7 +88,8 @@ def predict():
         # First, we rename column "prediction" to "Attrition_Flag" to follow the
         # structure of analysis data file.
         new_data = df.rename(columns={'prediction': 'Attrition_Flag'})
-
+        new_data['Attrition_Flag'] = new_data['Attrition_Flag'].map({ 0: 'Existing Customer', 
+                                                   1 : 'Attrited Customer'})
         # Second, we add a new column "predicted" with all values set to 1, which
         # indicates that the values are not real, but predicted. In the training
         # data this column is filled with 0.
