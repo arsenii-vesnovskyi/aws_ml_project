@@ -1,0 +1,19 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://final-project-team-3a/analysis/analysis_data.csv"
+            ]
+        },
+        {
+            "URIPrefixes": [
+                "s3://final-project-team-3a/analysis/"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "containsHeader": "true"
+    }
+}
