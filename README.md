@@ -7,3 +7,9 @@ Current GitHub repository contains the following files:
 * quickstart-manifest-analysis.json - JSON file that is needed to point AWS QuickStart Dashboard to the analysis file in the S3 bucket
 * training_data.csv - the data used to train the model
 * test_data.csv - the data used to train the model
+* Architecture Diagram.png - the visualization of the project's architecture
+
+Project Description
+
+The current repository contains the files for the group project implementation of a bank churn prediction model trained on an AWS EC2 cloud instance and served for making predictions via a flask API endpoint that ran on the same instance. The training and test data, as well as the model itself (as a joblib file) were saved on in the S3  storage. The storage was also connected to the AWS QuickStart Dashboarding Service to visualize the data (incl. predictions).
+Due to the recurring costs of AWS the API endpoint is currently not available. However, the purpose of the repository is to showcase the project itself. Glad to answer any questions in that regard!
