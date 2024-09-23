@@ -1,9 +1,9 @@
 Current GitHub repository contains the following files:
 
 * model_train.py - Script run on EC2 to train the model and save it to an S3 bucket
-* trained_model.joblib - Trained model save on S3
-* predictions_api.py - Script for the API tun on EC2 that makes predictions with the model and uploads new data for analysis to S3
-* request_to_api.py - Script execured locally to access the API and obtain predictions for test data, and then analyze the performance of the model
-* quickstart-manifest-analysis.json - JSON file that is needed to point AWS QuickStart Dashboard to the analysis file in S3 bucket
-* training_data.csv - training data
-* test_data.csv - test data
+* trained_model.joblib - Trained model saved on the same S3
+* predictions_api.py - Script for the API that is run on EC2 that makes predictions with the model and uploads new data for analysis to the S3 bucket
+* request_to_api.py - Script that is to be executed locally to access the API and obtain predictions for test data, and then analyze the performance of the model
+* quickstart-manifest-analysis.json - JSON file that is needed to point AWS QuickStart Dashboard to the analysis file in the S3 bucket
+* training_data.csv - the data used to train the model
+* test_data.csv - the data used to train the model
