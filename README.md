@@ -15,4 +15,5 @@ Due to the recurring costs of AWS the API endpoint is currently not available. H
 * Architecture Diagram.png - the visualization of the project's architecture
 
 **Link to Demo**
+
 https://drive.google.com/file/d/1nCDGUvQSov5a307komKywS2ZucgoUTv1/view?usp=drive_link
